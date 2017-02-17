@@ -1,20 +1,25 @@
 {
-    "name": "eventplanner",
-    "version": "1.0.0",
-    "description": "plan events",
-    "main": "app.js",
-    "dependencies": {
-        "express": "^4.14.1"
-    },
-    "devDependencies": {
-        "gulp": "^3.9.1",
-        "jscs": "^3.0.7",
-        "jshint": "^2.9.4"
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node app.js"
-    },
-    "author": "kevinnoll90@gmail.com",
-    "license": "ISC"
+  "name": "eventplanner",
+  "version": "1.0.0",
+  "description": "plan events",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.14.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-inject": "^4.2.0",
+    "gulp-jscs": "^4.0.0",
+    "gulp-jshint": "^2.0.4",
+    "jscs": "^3.0.7",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
+    "wiredep": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "kevinnoll90@gmail.com",
+  "license": "ISC"
 }
